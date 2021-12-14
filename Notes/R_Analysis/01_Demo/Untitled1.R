@@ -17,7 +17,7 @@ demo_table3 <- read.csv('demo2.csv',check.names = F,stringsAsFactors = F)
 
 #PRACTICE SELECTING DATA
 
-#Created Values
+#Created Values c mean concatenate
 x <- c(3, 3, 2, 2, 5, 5, 8, 8, 9)
 #test value
 x[3]
@@ -32,7 +32,7 @@ filter_table2 <- subset(demo_table2, price > 10000 & drive == "4wd" & "clean" %i
 filter_table3 <- demo_table2[("clean" %in% demo_table2$title_status) & (demo_table2$price > 10000) & (demo_table2$drive == "4wd"),] 
 #How to sample a two-dimensional data structure
 ?sample() 
-num_rows <- 1:nrow(demo_table)
+num_rows <- 1:nrow(demo_table) # capture the number of rows
 sample_rows <- sample(num_rows, 3)
 demo_table[sample_rows,]
 demo_table[sample(1:nrow(demo_table), 3),]
