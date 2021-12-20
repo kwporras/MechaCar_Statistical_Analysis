@@ -3,9 +3,6 @@
 After you’ve completed the technical analysis for each deliverable, provide a short summary of the results in the README.md of the analysis. For the final deliverable, you’ll write up a short description of the study design for additional statistical analysis. In the written summaries, we would like you to think critically about your analysis, not demonstrate mastery of automotive manufacturing.
 
 
-
-
-
 ## Linear Regression to Predict MPG
 Deliverable 1
 In your README, create a subheading, ## Linear Regression to Predict MPG, and write a short summary using a screenshot of the output from the linear regression, and address the following questions:
@@ -13,7 +10,7 @@ In your README, create a subheading, ## Linear Regression to Predict MPG, and wr
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
+![alt_text](https://github.com/kwporras/MechaCar_Statistical_Analysis/blob/8bcaff44f5d9385adc7b3bd4d128ddef17f1a345/Resources/Linear_Regression_to_Predict_MPG.PNG)
 
 ## Summary Statistics on Suspension Coils
 Deliverable 2
@@ -21,13 +18,16 @@ In your README, create a subheading ## Summary Statistics on Suspension Coils, a
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+![alt_text](https://github.com/kwporras/MechaCar_Statistical_Analysis/blob/8bcaff44f5d9385adc7b3bd4d128ddef17f1a345/Resources/Total_Summary.PNG)\
+![alt_text](https://github.com/kwporras/MechaCar_Statistical_Analysis/blob/8bcaff44f5d9385adc7b3bd4d128ddef17f1a345/Resources/Lot_Summary.PNG)
 
 ## T-Tests on Suspension Coils
 Deliverable 3
 
 Written Summary
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
+![alt_text](https://github.com/kwporras/MechaCar_Statistical_Analysis/blob/8bcaff44f5d9385adc7b3bd4d128ddef17f1a345/Resources/all_lots.PNG)
+![alt_text](https://github.com/kwporras/MechaCar_Statistical_Analysis/blob/8bcaff44f5d9385adc7b3bd4d128ddef17f1a345/Resources/individual_lots.PNG)
 
 ## Study Design: MechaCar v Competition
 Deliverable 4
